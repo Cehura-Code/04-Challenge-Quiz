@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, pink, purple, black);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+    background-color: pink;
+    height: 70vh;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.options {
+    text-align: start;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+button {
+    margin-right: 75px;
+    margin-top: 8%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #4f98c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#score {
+    font-size: 30px;
+    color: darkslategray;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .questions {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .options {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    button {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #score {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    ul {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
